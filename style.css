@@ -1,0 +1,104 @@
+body {
+    background-color: #06171d;
+    color: #f1fbfb;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+header {
+    text-align: center;
+    margin: 60px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.small-button {
+    font-size: .8rem;
+    margin: 10px;
+}
+
+.sectionHeaders {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, #06171d, #113d3c);
+    min-height: 70px;
+    color: #f1fbfb;
+    display: flex;
+    border: #015350 solid .07rem;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.card-image {
+    max-height: 400px;
+}
+
+.card-text {
+    color: #f1fbfb;
+}
+
+.card-title {
+    color: #f1fbfb;
+
+}
+
+.btn-link {
+    background-color: #fc9f01;
+    color: black;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    float: right;
+}
+
+.btn-link:hover {
+    background-color: #feb336;
+    color:#f1fbfb;
+}
+
+.langDiv {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.lang {
+    border: 2px solid #1e453e;
+    padding: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 2px;
+}
+
+.div1 {
+    background-color: #113d3c;
+}
+
+.div2 {
+    background-color: #015350;
+}
+
+.div3 {
+    background-color: #fd7d00;
+}
+
+.div4 {
+    background-color: #fc9f01;
+}
+
+.div5 {
+    background-color: #feb336;
+}
